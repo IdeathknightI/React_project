@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+header {
+  display: flex;
+  background-image: linear-gradient(to right, #f8760b, #ff0000);
+}
+.logo-container {
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #ff0000;
+  background: -webkit-linear-gradient(45deg, #ff0000, #f8760b 60%);
+}
+.logo {
+  font-size: 2rem;
+  padding: 20px;
+  background: -webkit-linear-gradient(145deg, #cf6106 40%, #f8e80b 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1 {
+  align-self: center;
+}
+sub {
+  font-size: 0.5rem;
+}
+.anime {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+.rank {
+  font-size: 2.5rem;
+  width: 5px;
+  margin-right: 35px;
+  align-self: center;
+}
+h3 {
+  justify-self: center;
+}
+.title {
+  color: #f8e80b;
+  font-size: 3rem;
+}
+.desc {
+  font-size: 1.2rem;
+}
+img {
+  margin: 5px;
+}
+button {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 10px;
+}
